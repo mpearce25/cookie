@@ -1,0 +1,3 @@
+[submodule "adversarial-mt"]
+	path = adversarial-mt
+	url = git@github.com:mpearce25/adversarial-mt.git
