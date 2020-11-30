@@ -1,0 +1,10 @@
+Model,p value,% watermarked,%normal,victim BLEU (before),victim BLEU (after),attacker BLEU (before),attacker BLEU (after),ownership % per query,expected for 95% certainity,Notes,victim status,attacker status,Color,
+twitter_cds,0,5,95,34.74,34.37,34.49,30.59,,,matt trr,,,Red,Can't start
+twitter_cds,0.1,5,95,34.74,34.49,34.49,30.58,,,,,,yellow,in progress
+twitter_cds,0.3,5,95,34.74,34.28,34.49,30.67,,,R,,,white,nothing
+poetry_cds,0.3,5,95,34.74,33.92,34.49,30.49,,,,,,,
+formality_314,0.1,5,95,34.74,34.5,34.49,30.5,,,,,,,
+poetry_cds,0,5,95,34.74,33.97,34.49,30.43,,,Matt,,,,
+lyrics,0,5,95,34.74,34.4,34.49,30.44,,,matt pm26,,,,
+lyrics,0.1,5,95,34.74,34.32,34.49,30.35,,,yelman,,,,
+lyrics,0.3,5,95,34.74,34.38,34.49,30.35,,,matt pm27,,,,
