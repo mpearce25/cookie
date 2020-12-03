@@ -1,0 +1,5 @@
+Model,p value,% watermarked,%normal,victim BLEU (before),victim BLEU (after),attacker BLEU (before),attacker BLEU (after),
+twitter_cds,0.1,5,95,34.74,33.72,34.49,30.4,
+poetry_cds,0.1,5,95,34.74,33.33,34.49,29.79,
+formality_314,0.1,5,95,34.74,33.91,34.49,1.87,yxk7912
+lyrics,0.1,5,95,34.74,33.77,34.49,29.84,
