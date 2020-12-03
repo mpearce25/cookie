@@ -1,0 +1,5 @@
+Model,p value,learning rate,num classes,num_ updates,dropout,attention dropout,epcohs,% Classified as Stylized,expected,Notes,cur epoch,,V1
+Twitter CDS,0.1,2.00E-05,2,1200,0.2,0.2,3,62.68148148,,pm21,,,
+Poetry CDS,0.1,2.00E-05,2,1200,0.2,0.2,3,59.05185185,,pm25,,,
+Lyrics CDS,0.1,2.00E-05,2,1200,0.2,0.2,3,67.27407407,,pm26,,,
+Formality 314,0.1,2.00E-05,2,1200,0.2,0.2,3,65.64444444,,pm 20,,,
