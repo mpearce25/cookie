@@ -42,14 +42,14 @@ deviation method in [Imitation Attacks and Defenses for Black-box Machine Transl
 ## Folders
 * Preprocessing IWSLT
   * split_lines.py
-        * Used to split the original data into smaller chunks to allow parallel processing when paraphrasing.
+    * Used to split the original data into smaller chunks to allow parallel processing when paraphrasing.
   * combine_output.py
-        * Used to combine the paraphrased output of the files split using the split_line.py sc
+    * Used to combine the paraphrased output of the files split using the split_line.py sc
   * match_line.py
-        * Created tags for the parphrased training data.
-        * Prepares data to be tokenized and properly split by fairseq's prepare-iwslt14.sh script.
+    * Created tags for the parphrased training data.
+    * Prepares data to be tokenized and properly split by fairseq's prepare-iwslt14.sh script.
   * getSize.py
-        * Code snippet ot get size of all the split data for various styles.
+     * Code snippet ot get size of all the split data for various styles.
 * Graphing
   * Python code to generate pyplots based on input csv's. 
   * Requires pandas, pyplot.
