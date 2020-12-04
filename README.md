@@ -41,9 +41,15 @@ deviation method in [Imitation Attacks and Defenses for Black-box Machine Transl
 
 ## Folders
 * Preprocessing IWSLT
-  * Based on code from fairseq. Updated to allow for arbitrary stylized text to be inserted in place of original en data files. 
-  * Prepares data to be tokenized and properly split by the ipynb's.
-  * Contains various other files used to help stylized data match original data structure.
+  * split_lines.py
+        * Used to split the original data into smaller chunks to allow parallel processing when paraphrasing.
+  * combine_output.py
+        * Used to combine the paraphrased output of the files split using the split_line.py sc
+  * match_line.py
+        * Created tags for the parphrased training data.
+        * Prepares data to be tokenized and properly split by fairseq's prepare-iwslt14.sh script.
+  * getSize.py
+        * Code snippet ot get size of all the split data for various styles.
 * Graphing
   * Python code to generate pyplots based on input csv's. 
   * Requires pandas, pyplot.
