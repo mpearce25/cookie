@@ -28,16 +28,16 @@
     * Trains Victim model on original and stylized data. Output from the victim model is used to train an attacker model. Evaluation is performed using BLEU4 scores. 
     * Training time is  ~4 hours per model being trained and ~10 hours total per p value and replacement % combination.  
 * compute_gradient.ipynb
-  * Implements the maximizes the angular
+    * Implements the maximizes the angular
 deviation method in [Imitation Attacks and Defenses for Black-box Machine Translation Systems](https://arxiv.org/pdf/2004.15015.pdf) from scratch with a little modification.
- * Instead of computing the whole model's gradients, we only consider the embedding layer.
- * The training data is split into batches for parallel computing. It took at least 10 days to finish the whole process (BLEU-threshold=0.8) when using a Google Colab Pro account with three running pages.
+    * Instead of computing the whole model's gradients, we only consider the embedding layer.
+    * The training data is split into batches for parallel computing. It took at least 10 days to finish the whole process (BLEU-threshold=0.8) when using a Google Colab Pro account with three running pages.
 * LM.ipynb
-  * Use the candidates obtained from the above approace to train a language model (LM) by leveraging fairseq.
-  * Generate the alternatvie translations by considering victim model and LM through a simple linear combination.
+    * Use the candidates obtained from the above approace to train a language model (LM) by leveraging fairseq.
+    * Generate the alternatvie translations by considering victim model and LM through a simple linear combination.
 * replac_with_syn.ipynb
- * Randomly replace words in the victim output with their synonym based on WordNet.
- * Compute the gradients again to find the best candidate.
+    * Randomly replace words in the victim output with their synonym based on WordNet.
+    * Compute the gradients again to find the best candidate.
 
 ## Folders
 * Preprocessing IWSLT
